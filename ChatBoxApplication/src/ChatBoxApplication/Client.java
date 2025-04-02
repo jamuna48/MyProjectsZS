@@ -63,7 +63,7 @@ public class Client {
 			}
 
 		} catch (Exception e) {
-			System.out.println("error ocurred in socket program" + e.getMessage());
+			e.printStackTrace();
 		}
 
 

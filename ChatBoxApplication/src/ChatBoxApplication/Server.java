@@ -61,7 +61,7 @@ public class Server {
 			}
 
 		} catch (Exception e) {
-			System.out.println("error ocurred in socket program" + e.getMessage());
+			e.printStackTrace();
 		}
 
 
